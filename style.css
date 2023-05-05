@@ -1,0 +1,499 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.main{
+    background-color: black;
+}
+
+.section-grid{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(3,350px);
+    grid-template-rows: 400px;
+    grid-auto-rows: 400px;
+    gap: 100px 0;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 20px;
+
+}
+
+/* !general setting */
+.cards {
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    border: 1px solid #ffffff23;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards__a{
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+    height: 50px;
+    text-decoration: none;
+    margin: 0 auto;
+    padding: 10px 10px;
+    background: rgb(11,11,11);
+    background: rgb(11,11,11);
+    background: linear-gradient(180deg, rgba(11,11,11,0) 4%, rgba(42,27,255,0.11248249299719892) 55%, rgba(21,0,255,1) 100%);
+    border-radius: 30px;
+    font-size: 20px;
+    color: rgb(255, 249, 249);
+    transition: 1s ease-in;
+}
+
+.cards__a:hover{
+    background-color: rgba(0, 0, 255, 0.404);
+    color: black;
+    font-weight: bold;
+}
+
+
+/* CARD-1  */
+.card-1{
+    background-image: url("game-1.png");
+}
+
+
+
+/* CARD-2 */
+.card-2{
+    background-image: url("game-2.png");
+}
+
+
+
+/* CARD-3  */
+.card-3{
+    background-image: url("game-3.png");
+}
+
+
+
+/* CARD-4  */
+.card-4{
+    background-image: url("game-4.png");
+}
+
+
+/* CARD-5 */
+.card-5{
+    background-image: url("game-5.png");
+}
+
+
+
+/* CARD-6 */
+.card-6{
+    background-image: url("game-6.png");
+}
+
+
+
+/* CARD-7  */
+.card-7{
+    background-image: url("game-7.png");
+}
+
+
+/* CARD-8  */
+.card-8{
+    background-image: url("game-8.png");
+}
+
+
+
+/* CARD-9  */
+.card-9{
+    background-image: url("game-9.png");
+}
+
+
+
+/* CARD-10  */
+.card-10{
+    background-image: url("game-10.png");
+}
+
+
+/* CARD-11 */
+.card-11{
+    background-image: url("game-11.png");
+}
+
+
+/* CARD-12 */
+.card-12{
+    background-image: url("game-12.png");
+}
+
+
+
+/* CARD-13  */
+.card-13{
+    background-image: url("game-13.png");
+}
+
+/* CARD-14  */
+.card-14{
+    background-image: url("game-14.png");
+}
+
+/* CARD-15  */
+.card-15{
+    background-image: url("game-15.png");
+}
+
+
+
+/* CARD-16  */
+.card-16{
+    background-image: url("game-16.png");
+}
+
+
+
+/* CARD-17  */
+.card-17{
+    background-image: url("game-17.png");
+}
+
+
+
+/* CARD-18  */
+.card-18{
+    background-image: url("game-18.png");
+}
+
+
+/* CARD-19  */
+.card-19{
+    background-image: url("game-19.png");
+}
+
+
+/* CARD-20  */
+.card-20{
+    background-image: url("game-20.png");
+} 
+ 
+
+
+/* CARD-21  */
+.card-21{
+    background-image: url("game-21.png");
+}
+
+
+
+/* CARD-22  */
+.card-22{
+    background-image: url("game-22.png");
+}
+
+
+/* CARD-23  */
+.card-23{
+    background-image: url("game-23.png");
+}
+
+
+
+/* CARD-24  */
+.card-24{
+    background-image: url("game-24.png");
+}
+
+
+/* CARD-25  */
+.card-25{
+    background-image: url("game-25.png");
+}
+
+
+/* CARD-26  */
+.card-26{
+    background-image: url("game-26.png");
+}
+
+
+/* CARD-27  */
+.card-27{
+    background-image: url("game-27.png");
+}
+
+
+/* CARD-28  */
+.card-28{
+    background-image: url("game-28.png");
+}
+
+
+/* CARD-29  */
+.card-29{
+    background-image: url("game-29.png");
+}
+
+
+/* CARD-30  */
+.card-30{
+    background-image: url("game-30.png");
+}
+
+
+/* CARD-31  */
+.card-31{
+    background-image: url("game-31.png");
+}
+
+
+/* CARD-32  */
+.card-32{
+    background-image: url("game-32.png");
+}
+
+
+/* CARD-33  */
+.card-33{
+    background-image: url("game-33.png");
+}
+
+
+/* CARD-34  */
+.card-34{
+    background-image: url("game-34.png");
+}
+
+
+/* CARD-35  */
+.card-35{
+    background-image: url("game-35.png");
+}
+
+/* CARD-36  */
+.card-36{
+    background-image: url("game-36.png");
+}
+
+
+/* CARD-37  */
+.card-37{
+    background-image: url("game-37.png");
+}
+
+
+/* CARD-38  */
+.card-38{
+    background-image: url("game-38.png");
+}
+
+
+/* CARD-39  */
+.card-39{
+    background-image: url("game-39.png");
+}
+
+
+/* CARD-40  */
+.card-40{
+    background-image: url("game-40.png");
+}
+
+
+/* CARD-41  */
+.card-41{
+    background-image: url("game-41.png");
+}
+
+
+
+/* CARD-42  */
+.card-42{
+    background-image: url("game-42.png");
+}
+
+
+
+/* CARD-43  */
+.card-43{
+    background-image: url("game-43.png");
+}
+
+
+/* CARD-44  */
+.card-44{
+    background-image: url("game-44.png");
+}
+
+
+/* CARD-45  */
+.card-45{
+    background-image: url("game45.png");
+}
+
+
+/* CARD-46  */
+.card-46{
+    background-image: url("game-46.png");
+}
+
+
+/* CARD-47  */
+.card-47{
+    background-image: url("game-47.png");
+}
+
+
+/* CARD-48  */
+.card-48{
+    background-image: url("game-48.png");
+}
+
+
+/* CARD-49  */
+.card-49{
+    background-image: url("game-49.png");
+}
+
+
+/* CARD-50  */
+.card-50{
+    background-image: url("game-50.png");
+}
+
+
+/* CARD-51  */
+.card-51{
+    background-image: url("game-51.png");
+}
+
+
+/* CARD-52  */
+.card-52{
+    background-image: url("game-52.png");
+}
+
+
+
+@media (max-width: 1125px) {
+    
+.section-grid{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(2,350px);
+    grid-template-rows: 400px;
+    grid-auto-rows: 400px;
+    gap: 100px 100px;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 20px;
+
+}
+
+
+}
+
+
+
+
+@media (max-width: 830px) {
+    
+    .section-grid{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2,350px);
+        grid-template-rows: 400px;
+        grid-auto-rows: 400px;
+        gap: 100px 50px;
+        justify-content: center;
+        align-items: center;
+        padding: 30px 20px;
+    
+    }
+    
+}
+
+
+
+
+@media (max-width: 760px) {
+    
+.section-grid{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2,350px);
+        grid-template-rows: 400px;
+        grid-auto-rows: 400px;
+        gap: 100px 10px;
+        justify-content: center;
+        align-items: center;
+        padding: 30px 20px;
+    
+    }
+    
+    
+}
+
+
+
+
+@media (max-width: 725px) {
+    
+.section-grid{
+     width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1,350px);
+    grid-template-rows: 400px;
+    grid-auto-rows: 400px;
+    gap: 100px 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 20px;
+        
+}
+        
+}
+
+
+
+
+@media (max-width: 360px) {
+    
+.section-grid{
+        grid-template-columns: repeat(1,330px);
+}
+}
+
+
+
+@media (max-width: 335px) {
+    
+.section-grid{
+
+grid-template-columns: repeat(1,300px);           
+}
+}
+
+
+
+@media (max-width: 315px) {
+    
+.section-grid{
+                 
+grid-template-columns: repeat(1,260px);
+              
+}
+}
